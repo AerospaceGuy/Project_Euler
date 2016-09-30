@@ -1,12 +1,24 @@
 package com.company;
 
-import javax.sound.midi.SysexMessage;
 
 /**
  * Created by jason on 9/17/16.
+ *
+ * This class returns an array of prime numbers
+ *
+ * Operations:
+ *      PrimesBelow - gives an array of primes below a certain int argument
+ *
+ *
  */
 public class Primes {
 
+
+    /**
+     *
+     * @param belowNum
+     * @return primeArray
+     */
     public int[] PrimesBelow(int belowNum){
 
         int [] primeArray = new int[50];
