@@ -21,7 +21,7 @@ public class Primes {
      */
     public int[] PrimesBelow(int belowNum){
 
-        int [] primeArray = new int[50];
+        int [] primeArray = new int[10000];
         int p = 1;
         primeArray[0] = 2;
 
